@@ -58,6 +58,7 @@ img {
 .vid {
     width: 100%;
 }
+/* المعسكرات والبرامج */
 .section2 {
     height: 550px;
     width: 100%;
@@ -65,7 +66,7 @@ img {
 }
 #bch {
     text-align: center;
-    padding: 70px;
+    padding: 40px;
     margin: 10;
     color: #4E3797;
 
@@ -90,7 +91,7 @@ img {
     border-radius: 15px;
 }
 .more {
-    margin: 25px;
+    margin: 55px;
     margin-left: 650px;
     margin-right: 650px;
     text-align: center;
@@ -141,19 +142,102 @@ img {
 
 
 
-
-
-
-
-
+/* أرقام الأكاديمية */
 
 .section3 {
     height: 550px;
     width: 100%;
-    background-color: rgb(255, 0, 166);    
+    background-color: #FFFFFF;    
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* أنشطة الأكاديمية */
 .section4 {
     height: 550px;
     width: 100%;
     background-color: #4E3796;    
+}
+/* .num {
+    text-align: center;
+    padding: 70px;
+    margin: 10;
+    color: #4E3797;
+
+} */
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+    margin:130px;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding:10px;
+    flex-direction: row-reverse;
+}
+.card {
+    background-color: #FFFFFF;
+    margin: 0px;
+    /* padding: 100px; */
+    height: 280px;
+    width: 240px;
+    border-radius: 15px;
+    position: relative;
+    box-shadow: 5px 10px 30px 15px #DFDFDF;
+}
+.card ul {
+    list-style: none;
+    text-align: center;
+    padding-top: 100px;
+    /* font-size: 25px; */
+    padding-right: 20px;
+}
+#icon {
+    position: absolute;
+   background-color: #91D8DB;
+   height: 65px; 
+   width: 65px;
+   border-radius: 60px;
+   font-size: 2.5em;
+   top: -30px;
+   left: 70px;
+   padding-top: 20px;
+   padding-left: 5px;
+   padding-right: 10px;
+   color:#FFFFFF
+}
+#stitle {
+    font-size: 25px;
+    color: #54BBBD;
+
+}
+#num {
+    font-size: 35px;
+    margin: 25px;
+    color: #6B21A8;
+}
+#lil {
+    font-size: 15px;
+    color: #343946;
 }
